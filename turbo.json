@@ -1,11 +1,16 @@
 {
   "tasks": {
-    "test": {
-      "outputs": []
-    },
+    "test": {},
     "package-1#test": {
       "dependsOn": [
         "utils#test"
+      ]
+    },
+    "app#test": {
+      "dependsOn": [
+        "utils#test",
+        "package-1#test",
+        "package-2#test"
       ]
     }
   }

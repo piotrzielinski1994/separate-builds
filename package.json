@@ -2,7 +2,8 @@
   "name": "separate-builds",
   "private": true,
   "workspaces": [
-    "lib/*"
+    "lib/*",
+    "src"
   ],
   "packageManager": "npm@11.3.0",
   "scripts": {
