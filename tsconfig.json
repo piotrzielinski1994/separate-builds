@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "baseUrl": ".",
+    "paths": {
+      "#utils": ["lib/utils/index.ts"],
+      "#utils/*": ["lib/utils/*"],
+      "#package-1": ["lib/package-1/index.ts"],
+      "#package-1/*": ["lib/package-1/*"],
+      "#package-2": ["lib/package-2/index.ts"],
+      "#package-2/*": ["lib/package-2/*"]
+    },
+    "types": ["node", "vitest/globals"]
+  }
+}

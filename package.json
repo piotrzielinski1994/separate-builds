@@ -10,9 +10,11 @@
     "test": "turbo run test"
   },
   "devDependencies": {
-    "turbo": "^2.8.14",
+    "@types/node": "^25.3.5",
     "tsx": "^4.21.0",
+    "turbo": "^2.8.14",
     "typescript": "^5.9.3",
+    "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.0.18"
   }
 }
