@@ -1,7 +1,5 @@
-import { wait } from '#utils';
-
 const package2 = async () => {
-  await wait(1_000);
+  await new Promise((resolve) => setTimeout(resolve, 1_000));
   return 'package-2';
 };
 
