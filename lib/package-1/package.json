@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "scripts": {
     "build": "tsx",
-    "test": "vitest run"
+    "test": "vitest run --reporter verbose"
   }
 }
