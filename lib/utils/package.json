@@ -2,7 +2,7 @@
   "name": "utils",
   "version": "1.0.0",
   "scripts": {
-    "build": "tsc",
+    "build": "tsx",
     "test": "vitest run"
   }
 }

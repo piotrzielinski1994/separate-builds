@@ -1,9 +1,11 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "ESNext",
-    "moduleResolution": "node",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "esModuleInterop": true,
+    "outDir": "./dist",
+    "rootDir": ".",
     "baseUrl": ".",
     "paths": {
       "#utils": ["lib/utils/index.ts"],
@@ -14,5 +16,7 @@
       "#package-2/*": ["lib/package-2/*"]
     },
     "types": ["node", "vitest/globals"]
-  }
+  },
+  "include": ["lib/**/*", "src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
