@@ -8,7 +8,7 @@
   "packageManager": "npm@11.3.0",
   "scripts": {
     "build": "turbo run build",
-    "test": "turbo run test"
+    "test": "turbo run test --log-order=grouped"
   },
   "devDependencies": {
     "@types/node": "^25.3.5",

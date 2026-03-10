@@ -5,13 +5,6 @@
       "dependsOn": [
         "utils#test"
       ]
-    },
-    "app#test": {
-      "dependsOn": [
-        "utils#test",
-        "package-1#test",
-        "package-2#test"
-      ]
     }
   }
 }
