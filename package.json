@@ -7,13 +7,14 @@
   ],
   "packageManager": "npm@11.3.0",
   "scripts": {
-    "build": "turbo run build",
-    "test": "turbo run test --log-order=grouped"
+    "build": "nx run-many -t build --verbose",
+    "test": "nx run-many -t test --verbose"
   },
   "devDependencies": {
-    "@types/node": "^25.3.5",
+    "@nx/js": "^22.5.4",
+    "@types/node": "^24.12.0",
+    "nx": "^22.5.4",
     "tsx": "^4.21.0",
-    "turbo": "^2.8.14",
     "typescript": "^5.9.3",
     "vite-tsconfig-paths": "^6.1.1",
     "vitest": "^4.0.18"

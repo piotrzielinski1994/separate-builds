@@ -1,0 +1,24 @@
+{
+  "plugins": [
+    {
+      "plugin": "@nx/js",
+      "options": {
+        "analyzeSourceFiles": true
+      }
+    }
+  ],
+  "targetDefaults": {
+    "test": {
+      "dependsOn": [
+        "^test"
+      ],
+      "cache": true
+    },
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "cache": true
+    }
+  }
+}
